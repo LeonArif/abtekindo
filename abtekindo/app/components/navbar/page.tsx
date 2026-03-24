@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({
   }
   // Default Navbar
   return (
-    <nav className="sticky-nav glass-effect border-b border-slate-200">
+    <nav className="sticky-nav glass-effect border-b bg-[#003366] border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-20 gap-4 md:gap-0">
           <div className="flex items-center gap-3">
@@ -60,17 +60,17 @@ const Navbar: React.FC<NavbarProps> = ({
               <span className="material-symbols-outlined text-3xl">ac_unit</span>
             </div>
             <div>
-              <h1 className="text-primary font-extrabold text-xl tracking-tight leading-none">{title}</h1>
-              <p className="text-[10px] text-slate-500 font-bold tracking-widest uppercase">PRIMA LESTARI</p>
+              <h1 className="text-white font-extrabold text-xl tracking-tight leading-none">{title}</h1>
+              <p className="text-[10px] text-[#a5c9ea] font-bold tracking-widest uppercase">PRIMA LESTARI</p>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-6 lg:space-x-10">
-            <a className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors" href="#">About Us</a>
-            <a className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors" href="#products">Products</a>
-            <a className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors" href="#contact">Contact</a>
+            <a className="text-sm font-semibold text-white hover:text-primary transition-colors" href="#">About Us</a>
+            <a className="text-sm font-semibold text-white hover:text-primary transition-colors" href="#products">Products</a>
+            <a className="text-sm font-semibold text-white hover:text-primary transition-colors" href="#contact">Contact</a>
           </div>
           <div className="md:hidden mt-4">
-            <span className="material-symbols-outlined text-slate-700">menu</span>
+            <span className="material-symbols-outlined text-white">menu</span>
           </div>
         </div>
       </div>
